@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is akash negi</title>
+</head>
+<style>
+	body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url(jan.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .form-style-5{
+  max-width: 450px;
+  padding: 10px 20px;
+  background: yellow;
+  margin: 10px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+  border: none;
+}
+.form-style-5 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.form-style-5 label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255,255,255,.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  background-color: #e8eeef;
+  color:#8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+  background: #d2d9dd;
+}
+.form-style-5 select{
+  -webkit-appearance: menulist-button;
+  height:35px;
+}
+.form-style-5 .number {
+  background: #1abc9c;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+  position: relative;
+  display: block;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  margin: 0 auto;
+  background: #1abc9c;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #16a085;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+  background: #109177;
+}
+h2{
+  font-family: sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  color: green;
+  text-align: center;
+  
+}
+h3{
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+  
+}
+
+</style>
+<body>
+ &#169;Akash Negi
+<div class="form-style-5"><h2>Banglore House Price Prediction</h2>
+	<form action="predict" method="POST">
+
+		<label>Location</label>
+		 <select name="location">
+		 	<option value="Phase_JP_Nagar">7th Phase JP Nagar</option>
+		 		<option value="Bannerghatta_Road">Bannerghatta Road</option> 
+		 		<option value="Begur_Road">Begur Road</option>
+		 		<option value="Bellandur">Bellandur</option>
+		 	<option value="Chandapura">Chandapura</option>
+	<option value="Electronic_City">Electronic City</option>
+<option value="Electronic_City_Phase_II">Electronic City Phase II</option>
+       <option value="Electronics_City_Phase_I">Electronics City Phase 1</option>
+       <option value="Haralur_Road">Haralur Road</option>
+       <option value="Hebbal">Hebbal</option> 
+   <option value="Hennur_Road">Hennur Road</option>
+      <option value="Hoodi">Hoodi</option> 
+      <option value="KR_Puram">KR Puram</option> 
+      <option value="Kanakpura_Road">Kanakpura Road</option> 
+      <option value="Marathahalli">Marathahalli</option> 
+  <option value="Other">Other</option>
+       <option value="Raja_Rajeshwari_Nagar">Raja Rajeshwari Nagar</option>
+   <option value="Rajaji_Nagar">Rajaji Nagar</option>
+<option value="Sarjapur">Sarjapur</option>
+<option value="Sarjapur_Road">Sarjapur  Road</option>
+       <option value="Thanisandra">Thanisandra</option>
+   <option value="Uttarahalli">Uttarahalli</option>
+<option value="Whitefield">Whitefield</option>
+<option value="Yelahanka">Yelahanka</option>
+		 </select><br>
+		 <label>Total square feet</label>
+		 <input type="text" name="total_sqft">
+		 	<br>
+		 	<label>Balcony</label>
+<select name="balcony">
+<option value="0">Non Balcony</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+
+</select><br>
+		 	<label>Bathroom</label>
+<select name="bathroom">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+
+</select><br>
+
+		 	<label>Bhk</label>
+<select name="bhk">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+
+</select><br>
+
+		 	<br>
+		 	<input type="submit" value="Predict">
+		 	<br>
+		<h3><center>
+{{ result }}</center></h3><hr>
+
+	</form>
+</div>
+
+</body>
+</html>
